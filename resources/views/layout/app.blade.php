@@ -38,9 +38,9 @@
 					<div class="grid-4 footer_contato">
 						<h3>Contato</h3>
 						<ul>
-							<li>- 21 2323-4343</li>
+							<li>- 11 2323-4343</li>
 							<li>- contato@bikcraft.com</li>
-							<li>- Botafogo - RJ</li>
+							<li>- São Paulo - SP</li>
 						</ul>
 					</div>
 					<div class="grid-4 footer_redes">

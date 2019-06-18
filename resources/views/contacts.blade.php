@@ -22,10 +22,10 @@
     </form>
     <div class="grid-8 contato_dados">
       <h3>Dados</h3>
-      <span>+55 21 93223 3232</span>
+      <span>+55 11 93223 3232</span>
       <span>orcamento@bikcraft.com</span>
-      <span>Rua Ali Perto - Botafogo</span>
-      <span>Rio de Janeiro - RJ - Brasil</span>
+      <span>Rua Ali Perto - Vila Olimpia</span>
+      <span>São Paulo - SP - Brasil</span>
       <h3>Redes Sociais</h3>
       <ul>
         <li><a target="_blank" href="#Facebook"><img src="img/redes-sociais/facebook.png"></a></li>
@@ -35,7 +35,7 @@
     </div>
   </section>
   <section class="container contato_mapa">
-    <a class="grid-16" href="http>//google.com" target="_blank"><img src="img/endereco-bikcraft.jpg" alt="Endereço da Bikcraft"></a>
+    <a class="grid-16" href="https://www.google.com/maps/place/Digital+House+S%C3%A3o+Paulo/@-23.6024956,-46.6752568,15z/data=!4m5!3m4!1s0x0:0x739f0ddb0439cf94!8m2!3d-23.6024956!4d-46.6752568" target="_blank"><img src="img/mapa.png" alt="Endereço da Bikcraft"></a>
   </section>
   <section class="quebra">
     <blockquote class="container quote-externo">
