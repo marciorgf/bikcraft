@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateClientesTable extends Migration
+class CreateClientsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,16 +13,16 @@ class CreateClientesTable extends Migration
      */
     public function up()
     {
-        Schema::create('clientes_01', function (Blueprint $table) {
-            $table->bigIncrements('t01_idCliente');
-            $table->string('t01_nome');
+        Schema::create('clients_01', function (Blueprint $table) {
+            $table->bigIncrements('t01_idClient');
+            $table->string('t01_name');
             $table->string('t01_cpf');
-            $table->string('t01_fone');
-            $table->string('t01_celular');
-            $table->date('t01_dtnascimento');
-            $table->string('t01_sexo');
+            $table->string('t01_phone');
+            $table->string('t01_mobile');
+            $table->date('t01_birthDate');
+            $table->string('t01_sex');
             $table->string('t01_email');
-            $table->string('t01_senha');
+            $table->string('t01_password');
             $table->timestamps();
         });
     }

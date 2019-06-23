@@ -23,7 +23,8 @@ class ClienteController extends Controller
      */
     public function create()
     {
-        //
+
+
     }
 
     /**
@@ -34,7 +35,13 @@ class ClienteController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $dataForm = $request->all();
+
+        try {
+
+
+        }
+
     }
 
     /**
