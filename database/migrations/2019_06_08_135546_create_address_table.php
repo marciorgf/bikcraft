@@ -35,6 +35,6 @@ class CreateAddressTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('entregas');
+        Schema::dropIfExists('address_03');
     }
 }
