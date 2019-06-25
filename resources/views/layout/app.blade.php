@@ -41,10 +41,10 @@
 							<li>- 11 2323-4343</li>
 							<li>- contato@bikcraft.com</li>
 							<li>- São Paulo - SP</li>
-						</ul>
+						</ul>	
 					</div>
 					<div class="grid-4 footer_redes">
-						<h3>Contato</h3>
+						<h3>Redes Sociais</h3>
 						<ul>
 							<li><a target="_blank" href="#Facebook"><img src="img/redes-sociais/facebook.png"></a></li>
 							<li><a target="_blank" href="#Instagram"><img src="img/redes-sociais/instagram.png"></a></li>
