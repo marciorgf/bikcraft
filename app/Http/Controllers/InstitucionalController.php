@@ -21,5 +21,9 @@ class InstitucionalController extends Controller
     public function contacts(){
         return view('contacts');
     }
+
+    public function budget(){
+        return view('budget');
+    }
            
 }

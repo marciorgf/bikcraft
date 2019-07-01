@@ -7,7 +7,7 @@
 			<p>"não tenha nada em sua casa que você não considere útil ou acredita ser bonito"</p>
 			<cite>Willian Morris</cite>
 		</blockquote>
-		<a class="btn" href="produtos.html">Orçamento</a>
+		<a class="btn" href="/budget">Orçamento</a>
 	</div>
 </section>
 <section class="container produtos">
