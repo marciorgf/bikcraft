@@ -14,7 +14,9 @@ class ClienteController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $clients = Client::all();
+
+        return view('listClient');
     }
 
     /**
@@ -25,6 +27,7 @@ class ClienteController extends Controller
     public function create()
     {
 
+        return view('formClient')
 
     }
 
@@ -38,9 +41,20 @@ class ClienteController extends Controller
     {
         $dataForm = $request->all();
 
-        try {
+        $insert =  Client::create($dataForm);
 
+            if ($insert){
 
+                $client =  Client::all()
+                           ->orderBy('t01_idClient', 'desc')
+                            ->first()
+                            ->get();
+                            return view('formAddress')->with('client', $client);
+            }else{
+
+                $message =  "Seus Dados não Foram Cadastrados - Entra em Contato com SAC !!";
+                return redirect()->back()->with('message', $message);
+            }
         }
 
     }
@@ -51,9 +65,12 @@ class ClienteController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+
+     public function show($t01_idClient)
     {
-        //
+        $client = Client::find($t01_idClient);
+
+        return
     }
 
     /**
