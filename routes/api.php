@@ -45,3 +45,30 @@ Route::post('/add/card', array('middleware' => 'cors', 'uses' => 'Api\CardContro
 Route::get('/edit/card/{t02_idCard}', array('middleware' => 'cors', 'uses' => 'Api\CardController@edit'));
 Route::put('/update/card/{t02_idCard}', array('middleware' => 'cors', 'uses' => 'Api\CardController@update'));
 Route::delete('/delete/card/{t02_idCard}', array('middleware' => 'cors', 'uses' => 'Api\CardController@destroy'));
+/*
+*
+*           Manufactory Routes
+*/
+Route::get('/list/manufacturer', array('middleware' => 'cors', 'uses' => 'Api\ManufacturerController@index'));
+Route::post('/add/manufacturer', array('middleware' => 'cors', 'uses' => 'Api\ManufacturerController@store'));
+Route::get('/show/manufacturer/{t07_idManufacturer}', array('middleware' => 'cors', 'uses' => 'Api\ManufacturerController@show'));
+Route::put('/update/manufacturer/{t07_idManufacturer}', array('middleware' => 'cors', 'uses' => 'Api\ManufacturerController@update'));
+Route::delete('/delete/manufacturer/{t07_idManufacturer}', array('middleware' => 'cors', 'uses' => 'Api\ManufacturerController@destroy'));
+/*
+*
+*           Modality Routes
+*/
+Route::get('/list/modality', array('middleware' => 'cors', 'uses' => 'Api\ModalityController@index'));
+Route::post('/add/modality', array('middleware' => 'cors', 'uses' => 'Api\ModalityController@store'));
+Route::get('/show/modality/{t05_idModality}', array('middleware' => 'cors', 'uses' => 'Api\ModalityController@show'));
+Route::put('/update/modality/{t05_idModality}', array('middleware' => 'cors', 'uses' => 'Api\ModalityController@update'));
+Route::delete('/delete/modality/{t05_idModality}', array('middleware' => 'cors', 'uses' => 'Api\ModalityController@destroy'));
+/*
+*
+*           Parts Routes
+*/
+Route::get('/list/parts', array('middleware' => 'cors', 'uses' => 'Api\PartsController@index'));
+Route::post('/add/parts', array('middleware' => 'cors', 'uses' => 'Api\PartsController@store'));
+Route::get('/show/parts/{t04_idParts}', array('middleware' => 'cors', 'uses' => 'Api\PartsController@show'));
+Route::put('/update/parts/{t04_idParts}', array('middleware' => 'cors', 'uses' => 'Api\PartsController@update'));
+Route::delete('/delete/parts/{t04_idParts}', array('middleware' => 'cors', 'uses' => 'Api\PartsController@destroy'));

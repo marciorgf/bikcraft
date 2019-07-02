@@ -23,7 +23,7 @@ class ClientController extends Controller
      */
     public function store(Request $request)
     {
-        $veryfy =  Client::firstOrNew(['t01_email'=> $request->email]);
+        $veryfy =  Client::firstOrNew(['t01_email'=> $request->t07_email]);
         if($veryfy){
             $message  = "Cliente Existente!";
             return json_encode($message);
@@ -40,11 +40,7 @@ class ClientController extends Controller
                         ];
                         $insert = Client::create($dataForm);
                         if ($insert){
-                            $client =  Client::all()
-                                        ->sortByDesc('t01_idClient')
-                                        ->first()
-                                        ->get();
-                            return $client;
+                            return $insert;
                             }else{
                             $message  = "Não foi possível efetuar seu cadastro, entre em contato com SAC";
                             return json_encode($message);

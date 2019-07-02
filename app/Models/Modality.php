@@ -1,3 +1,4 @@
+
 <?php
 
 namespace App\Models;
@@ -9,4 +10,5 @@ class Modality extends Model
     protected $table = 'modality_05';
     protected $primaryKey = 't05_idModality';
     protected $fillable = ['t05_name'];
+
 }

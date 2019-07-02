@@ -23,7 +23,7 @@ class CreateManufacturerTable extends Migration
             $table->string('t07_city');
             $table->string('t07_zipCode');
             $table->string('t07_state');
-            $table->string('email')->unique();
+            $table->string('t07_email')->unique();
             $table->timestamps();
         });
     }
