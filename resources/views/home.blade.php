@@ -16,7 +16,7 @@
 
 		<li class="grid-1-3">
 			<div class="produtos_icone">
-				<img src="img/produtos/passeio.png" alt="Bikcraft Passeio">
+				<img src="img/produtos/passeio.png" alt="Bikcustom Passeio">
 			</div>
 			<h3>Passeio</h3>
 			<p>Ainda assim, existem dúvidas a respeito de como a necessidade de renovação</p>
@@ -24,7 +24,7 @@
 
 		<li class="grid-1-3">
 			<div class="produtos_icone">
-				<img src="img/produtos/esporte.png" alt="Bikcraft Esporte">
+				<img src="img/produtos/esporte.png" alt="Bikcustom Esporte">
 			</div>
 			<h3>Esporte</h3>
 			<p>Ainda assim, existem dúvidas a respeito de como a necessidade de renovação</p>
@@ -32,7 +32,7 @@
 
 		<li class="grid-1-3">
 			<div class="produtos_icone">
-				<img src="img/produtos/retro.png" alt="Bikcraft Retro">
+				<img src="img/produtos/retro.png" alt="Bikcustom Retro">
 			</div>
 			<h3>Retro</h3>
 			<p>Ainda assim, existem dúvidas a respeito de como a necessidade de renovação</p>
@@ -65,7 +65,7 @@
 </section>
 <section class="container qualidade">
 	<h2 class="subtitulo">Qualidade</h2>
-	<img src="img/bikcraft-qualidade.png" alt="Bikecraft">
+	<img src="img/bikcraft-qualidade.png" alt="Bikcustom">
 	<ul class="qualidade_lista">
 		<li class="grid-1-3">
 			<h3>Durabilidade</h3>

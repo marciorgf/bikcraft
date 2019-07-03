@@ -7,7 +7,7 @@
 <section class="introducao_interna introducao_interna_sobre">
     <div class="container">
         <h1>Sobre</h1>
-        <p>conheça mais sobre a bikcraft</p>
+        <p>conheça mais sobre a bikcustom</p>
     </div>
 </section>
 <section class="missao_sobre container">
@@ -28,12 +28,12 @@
         </ul>
     </div>
     <div class="grid-16 foto_equipe">
-        <img src="img/equipe-bikcraft.jpg" alt="Equipe Bikecraft">
+        <img src="img/equipe-bikcraft.jpg" alt="Equipe Bikcustom">
     </div>
 </section>
 <section class="container qualidade">
     <h2 class="subtitulo">Qualidade</h2>
-    <img src="img/bikcraft-qualidade.png" alt="Bikecraft">
+    <img src="img/bikcraft-qualidade.png" alt="Bikcustom">
     <ul class="qualidade_lista">
         <li class="grid-1-3">
             <h3>Durabilidade</h3>

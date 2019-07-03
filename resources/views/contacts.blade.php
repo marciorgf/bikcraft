@@ -23,7 +23,7 @@
     <div class="grid-8 contato_dados">
       <h3>Dados</h3>
       <span>+55 11 93223 3232</span>
-      <span>orcamento@bikcraft.com</span>
+      <span>orcamento@bikcustom.com</span>
       <span>Rua Ali Perto - Vila Olimpia</span>
       <span>São Paulo - SP - Brasil</span>
       <h3>Redes Sociais</h3>

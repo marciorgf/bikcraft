@@ -2,7 +2,7 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="utf-8">
-		<title>Bikcraft</title>
+		<title>Bikcuston</title>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/grid.css">
@@ -15,7 +15,7 @@
 		<header class="header">
 			<div class="container">
 				<a target="" href="/" class="grid-4">
-					<img src="img/logo.png" alt="bikecraft">
+					<img src="img/logo.png" alt="bikcustom">
 				</a>
 				<nav class="header_menu grid-12">
 					<ul>
@@ -39,7 +39,7 @@
 						<h3>Contato</h3>
 						<ul>
 							<li>- 11 2323-4343</li>
-							<li>- contato@bikcraft.com</li>
+							<li>- contato@bikcustom.com</li>
 							<li>- São Paulo - SP</li>
 						</ul>	
 					</div>
@@ -55,7 +55,7 @@
 			</div>
 			<div class="copy">
 				<div class="container">
-					<p class="grid-16">Bikcraft 2019 - &copy; Copyright - Todos os direitos reservados</p>
+					<p class="grid-16">Bikcustom 2019 - &copy; Copyright - Todos os direitos reservados</p>
 				</div>
 			</div>
 		</footer>
