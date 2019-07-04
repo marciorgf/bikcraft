@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Bikcuston</title>
+		<link rel="stylesheet" href="css/cadastro.css">
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/grid.css">
@@ -20,12 +21,22 @@
 				<nav class="header_menu grid-12">
 					<ul>
 						<li><a href="/about">Sobre</li></a>
-						<li><a href="#">Produtos</li></a>
+						<li><a href="/">Produtos</li></a>
 						<li><a href="/cases">Portfólio</li></a>
 						<li><a href="/contacts">contato</li></a>
 					</ul>
 				</nav>
 			</div>
+
+			<div class="container">			
+				<nav class="cadastro">
+					<ul>
+						<li><a href="/" title="Entrar">Login</a></li>
+						<li><a href="/" title="cadastrar-se">Registrar-se</a></li>
+					</ul>
+				</nav>
+			</div>
+
 		</header>
             @yield('app')
 		<footer>
