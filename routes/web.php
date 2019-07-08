@@ -16,6 +16,7 @@ Route::get('/about', 'InstitucionalController@about');
 Route::get('/cases', 'InstitucionalController@cases');
 Route::get('/contacts', 'InstitucionalController@contacts');
 Route::get('/budget', 'InstitucionalController@budget');
+Route::get('/enter', 'InstitucionalController@enter');
 
 Auth::routes();
 

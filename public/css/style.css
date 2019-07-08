@@ -84,7 +84,21 @@ img{
   background: var(--primary-color);
   padding: 15px 0;
   z-index: 10;
-}  
+}
+
+.cadastro {
+  /* background: #000;; */
+  /* padding: 1px; */
+}
+
+.header_menu ul li a.entrar {
+  color:#fff;  
+}
+
+.header_menu ul li a.entrar:hover {  
+  color: #000;
+  transition: all 0.9s ease;
+}
 
 .header_menu{
   text-align:right;  
@@ -109,6 +123,7 @@ img{
     color:#fff;
     transition: all 0.3s ease;    
   }
+  
 /* Introdução */
   .introducao{
     width:100%;

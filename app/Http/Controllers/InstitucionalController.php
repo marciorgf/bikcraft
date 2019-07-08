@@ -25,5 +25,9 @@ class InstitucionalController extends Controller
     public function budget(){
         return view('budget');
     }
+
+    public function enter(){
+        return view('enter');
+    }
            
 }

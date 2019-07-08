@@ -2,8 +2,7 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="utf-8">
-		<title>Bikcuston</title>
-		<link rel="stylesheet" href="css/cadastro.css">
+		<title>Bikcuston</title>		
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/grid.css">
@@ -24,19 +23,11 @@
 						<li><a href="/">Produtos</li></a>
 						<li><a href="/cases">Portfólio</li></a>
 						<li><a href="/contacts">contato</li></a>
+						<li class="cadastro"><a class="entrar" href="/enter" title="Entrar">Entrar</a></li>
+						<li class="cadastro"><a class="entrar" href="/register" title="Cadastrar-se">Registrar-se</a></li>
 					</ul>
-				</nav>
+				</nav>			
 			</div>
-
-			<div class="container">			
-				<nav class="cadastro">
-					<ul>
-						<li><a href="/" title="Entrar">Login</a></li>
-						<li><a href="/" title="cadastrar-se">Registrar-se</a></li>
-					</ul>
-				</nav>
-			</div>
-
 		</header>
             @yield('app')
 		<footer>
