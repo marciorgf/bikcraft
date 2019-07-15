@@ -15,9 +15,12 @@
       <input type="text" id="email">
       <label for="password">Senha</label>
       <input type="password" id="password">
-      <button type="submit" class="btn btn-preto">Enviar</button>
+        <a class="lembrar_senha" href="#">Esqueceu sua senha?</a><br>
+      <button type="submit" class="btn btn-preto">Entrar</button>
+      <button type="submit" class="btn btn-preto">Registrar-se</button>
     </form>    
-  </section>  
+  </section>
+
   <section class="quebra">
     <blockquote class="container quote-externo">
       <p>"o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalher da vida cotidiana."</p>

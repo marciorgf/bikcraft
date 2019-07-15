@@ -2,7 +2,7 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="utf-8">
-		<title>Bikcuston</title>		
+		<title>Bikcraft</title>		
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/grid.css">
@@ -11,8 +11,8 @@
 		@stack('css')
 		<script src="js/libs/modernizr.custom.js"></script>
 	</head>
-	<body>
-		<header class="header">
+	<body>		
+		<header class="header">			
 			<div class="container">
 				<a target="" href="/" class="grid-4">
 					<img src="img/logo.png" alt="bikcustom">
@@ -23,8 +23,7 @@
 						<li><a href="/">Produtos</li></a>
 						<li><a href="/cases">Portfólio</li></a>
 						<li><a href="/contacts">contato</li></a>
-						<li class="cadastro"><a class="entrar" href="/enter" title="Entrar">Entrar</a></li>
-						<li class="cadastro"><a class="entrar" href="/register" title="Cadastrar-se">Registrar-se</a></li>
+						<li class="cadastro"><a class="entrar" href="/enter" title="Entrar">Entrar</a></li>						
 					</ul>
 				</nav>			
 			</div>
@@ -41,7 +40,7 @@
 						<h3>Contato</h3>
 						<ul>
 							<li>- 11 2323-4343</li>
-							<li>- contato@bikcustom.com</li>
+							<li>- contato@bikcraft.com</li>
 							<li>- São Paulo - SP</li>
 						</ul>	
 					</div>
@@ -57,7 +56,7 @@
 			</div>
 			<div class="copy">
 				<div class="container">
-					<p class="grid-16">Bikcustom 2019 - &copy; Copyright - Todos os direitos reservados</p>
+					<p class="grid-16">Bikcraft 2019 - &copy; Copyright - Todos os direitos reservados</p>
 				</div>
 			</div>
 		</footer>

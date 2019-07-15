@@ -7,7 +7,7 @@
 <section class="introducao_interna introducao_interna_sobre">
     <div class="container">
         <h1>Sobre</h1>
-        <p>conheça mais sobre a bikcustom</p>
+        <p>conheça mais sobre a Bikcraft</p>
     </div>
 </section>
 <section class="missao_sobre container">
